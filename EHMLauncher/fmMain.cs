@@ -42,7 +42,6 @@ namespace EHMLauncher
         {
             try
             {
-                MessageBox.Show(ip);
                 ehm = Process.GetProcessesByName("ehm").First();
                 MemorySharp mem = new MemorySharp(ehm);
                 IntPtr ip1 = new IntPtr(0xAFCD20);
