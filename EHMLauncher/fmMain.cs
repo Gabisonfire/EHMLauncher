@@ -29,6 +29,7 @@ namespace EHMLauncher
 
         public void LoadServers()
         {
+            if (!File.Exists(JSON_FILE)) return;
             string[] rawJson = File.ReadAllText(JSON_FILE).Split('\n');
             foreach (string str in rawJson)
             {
