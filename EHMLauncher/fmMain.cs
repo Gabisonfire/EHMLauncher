@@ -85,6 +85,8 @@ namespace EHMLauncher
                 }
                 json.WriteJson(list);
                 GenerateContext();
+                tbDesc.Text = "";
+                tbIP.Text = "";
             }
         }
 
