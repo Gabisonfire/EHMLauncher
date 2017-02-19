@@ -1,6 +1,8 @@
 # EHMLauncher
 Simple utility to input the IP in EHM.
 
+[Download here](https://github.com/Gabisonfire/EHMLauncher/releases/latest)
+
 ![main](screens/main.png)
 
 # How-to
